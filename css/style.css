@@ -1,0 +1,493 @@
+.main {
+	background-image: url(https://s3.amazonaws.com/f.cl.ly/items/1g3e3w1p3O1w2K393I2O/Cause%20Chat%20Home%20Background%20Photo.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	color: #fff;
+	padding: 38px;
+}
+header {
+	max-width: 100%;
+	height: 100px;
+	color: #fff;
+}
+
+header .container {
+	margin: 0 auto;
+	padding-top: 22px;
+}
+
+h1 {
+	margin: 0;
+	font-size: 22px;
+	font-weight: 200;
+	letter-spacing: 7px;
+}
+
+h1:before {
+	content: url(../images/cause-logo.png);
+	position: relative;
+	top: 7px;
+	right: 13px;
+}
+
+h1, ul li {
+	text-transform: uppercase;
+}
+
+ul {
+	list-style-type: none;
+	display: flex;
+	padding-top: 10px;
+}
+
+
+h1 {float: left;}
+
+.nav {
+	float: right;
+}
+
+.nav li {
+	padding: 0 20px;
+	font-weight: 200;
+}
+
+.blurb {
+	text-align: center;
+	max-width: 660px;
+	margin-top: 87px;
+}
+
+.blurb h3 {
+	font-size: 43.4px;
+	line-height: 56px;
+}
+
+.blurb p {
+	font-weight: 300;
+}
+
+.blurb a {
+	background-color: #58cd97;
+	color: #fff;
+	padding: 12px 30px;
+	margin-top: 23px;
+	display: inline-block;
+	border-radius: 2px;
+}
+
+.laptop {
+	background-color: #000;
+	border: 2px solid #c9c9c9;
+	border-top-left-radius: 20px;
+	border-top-right-radius: 20px;
+	height: 334px;
+	margin: 0 auto;
+	max-width: 600px;
+	overflow: hidden;
+	position: relative;
+	top: 38px;
+	width: 100%;
+	border-bottom: none;
+}
+
+.laptop .screen {
+	background-color: #ccc;
+	bottom: 20px;
+	left: 20px;
+	overflow: hidden;
+	position: absolute;
+	right: 20px;
+	top: 20px;
+}
+.screen { position: relative; overflow: auto; }
+    .screen li { list-style: none; padding: 0;  }
+        .screen ul li { float: left; padding: 0; }
+
+.screen ul {padding: 0;}
+
+.screen .slide {
+	padding: 162px 0px 150px 0px;
+	background-position: top center;
+	-webkit-background-size: contain;
+	-moz-background-size: contain;
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+
+.screen .slide-1 {
+	background-image: url(../images/glass-screen-2.png);
+	z-index: 1;
+}
+
+.screen .slide-2 {
+	background-image: url(../images/app-screen.png);
+	z-index: 0;
+
+}
+/*.macbook {
+	background-image: url(../images/mac-screen.png);
+	max-width: 760px;
+	height: 600px;
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: center;
+}
+
+.macbook .app {
+	position: absolute;
+  	top: 572px;
+	left: 392px;
+	transform: scaleX(0.99);
+}
+
+.macbook .glass {
+	position: absolute;
+  	top: 569px;
+	left: 392px;
+	-webkit-animation: app 10s ease-in infinite;
+    -webkit-animation-fill-mode: backwards;
+}*/
+
+.offer {
+	height: 85px;
+	max-width: 100%;
+	background-color: #fafafa;
+	box-shadow: -6px 1px 5px #e4e4e4;
+}
+
+.offer .container {
+	display: flex;
+	padding: 23px 0 17px 0;
+	max-width: 718px;
+	font-size: 17px;
+	padding-left: 28px;
+}
+
+.offer .container span {
+	margin-right: 23px;
+	color: #fff;
+	padding: 10px 20px;
+	background-color: #199eda;
+	text-transform: uppercase;
+	font-size: 16px;
+	border-radius: 2px;
+
+}
+
+.offer .container p {
+	margin-right: 38px;
+	font-weight: 300;
+	padding-top: 10px;
+}
+
+.offer .container a {
+	font-weight: 500;
+	color: #51b5e2;
+	padding-top: 10px;
+}
+
+.offer .container .fa-caret-right {
+	transform: translate(10px, 14px);
+	color: #51b5e2;
+
+}
+
+.products {
+	padding-top: 60px;
+	font-family: "proxima-nova-light",sans-serif;
+}
+
+.col-md-3 {
+	padding-right: 10px;
+}
+
+.col-md-3 .row {
+	margin-bottom: 45px;
+}
+
+.col-md-3 h4 {
+	padding-left: 0;
+	line-height: 26px;
+	margin-top: 0;
+}
+
+.col-md-3 p {
+	font-weight: 400;
+	color: #92969a;
+	line-height: 26px;
+	margin-bottom: 75px;
+}
+
+.clock {
+	background-image: url(../images/clock.png);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: contain;
+	padding: 20px;
+
+}
+
+.chat {
+	background-image: url(../images/chat.png);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: contain;
+	padding: 20px;
+}
+
+.profile {
+	background-image: url(../images/profile.png);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: contain;
+	padding: 20px;
+}
+
+.graph {
+	background-image: url(../images/graph.png);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: contain;
+	padding: 20px;
+}
+
+.description {
+	margin-top: 45px;
+}
+
+
+
+@media screen and (min-width: 1200px) {
+	.testmonials {
+		width: 100%;
+		display: table;
+		padding-top: 75px;
+	}
+}
+
+.testmonials .fifty {
+	width: 50%;
+	display: table-cell;
+	vertical-align: middle;
+	padding: 160px 171px;
+}
+
+.testmonials .purple {
+	background-color: #7f59b4;
+	text-align: center;
+	color: #fff;
+}
+
+.purple h6 {
+	font-weight: 200;
+	font-size: 22px;
+}
+
+.purple hr {
+	height: 1px;
+	border-top: 5px solid #9b79cb;
+	width: 42px;
+}
+
+.purple p {
+	letter-spacing: 1px;
+	text-transform: uppercase;
+	font-weight: normal;
+	font-size: 12px;
+
+}
+
+.testmonials .morethan {
+	background-image: url(../images/morethansport.png);
+}
+
+.book-cover {
+	max-width: 327px;
+	margin: 50px auto;
+	border: 1px solid;
+	background-color: #092d38;
+	position: relative;
+	box-shadow: 4px 4px #cac9c8;
+}
+
+.book-cover::before {
+	content: url(../images/cover-icon.png);
+	position: relative;
+	z-index: 9;
+	left: 137px;
+	top: 80px;
+}
+
+.book-cover::after {
+	content: url(../images/cover-icon-black.png);
+	position: relative;
+	z-index: 8;
+	left: 130px;
+	top: -329px;
+}
+
+.book-cover .circle {
+	height: 100px;
+	width: 100px;
+	background-color: #3b7381;
+	border-radius: 50%;
+	margin: 0 auto;
+}
+
+.book-cover .lines::before {
+	content: url(../images/five.png);
+	position: relative;
+	left: 102px;
+	top: 78px;
+}
+
+.book-cover hr {
+	height: 1px;
+	background-color: #eeb934;
+	color: #eeb934;
+	border-top-color: #eeb934;
+	margin-top: 13px;
+	margin-bottom: 13px;
+}
+
+.book-cover .same {
+	max-width: 194px;
+}
+
+.book-cover .two {
+	max-width: 235px;
+	height: 1.5px;
+}
+
+.book-cover p {
+	color: #eeb934;
+	max-width: 161px;
+	margin: 59px auto;
+	text-align: center;	
+	font-size: 17px;
+}
+
+.ebook .book-title {
+	margin-top: 70px;
+}
+
+.book-title h5{
+	color: #199eda;
+	font-size: 22px;
+	letter-spacing: 1px;
+  	font-weight: 300;
+  	margin:0;
+}
+
+.book-title p {
+	color: #92969a;
+	margin:0;
+}
+
+.ebook .book-form {
+	margin-top: 45px;
+}
+
+.book-text p {
+	color: #92969a;
+	margin: 82px auto 0;
+}
+
+.book-text label {
+	color: #199eda;
+	z-index: 3;
+	position: relative;
+	top: 24px;
+	background-color: white;
+	padding: 10px;
+	left: -12px;
+}
+
+form {
+	border: 2px solid #ddd;
+	padding: 44px 36px 33px 32px;
+}
+
+form input[name*=email] {
+	width: 100%;
+}
+
+form .email {
+	top: 0;
+	padding: 0;
+	left: 0;
+	color: #92969a;
+}
+
+form input[type*=submit] {
+	background-color: #58cd97;
+	color: #fff;
+	padding: 12px 30px;
+	margin-top: 12px;
+	display: inline-block;
+	border-radius: 2px;
+	letter-spacing: 1px;
+	border: 0;
+}
+
+.footer {
+	height: 281px;
+	max-width: 100%;
+	margin-top: 50px;
+	background-color: #199eda;
+}
+
+.wrap {
+	max-width: 50%;
+	margin: 74px auto 0 auto;
+	text-align: center;
+	color: #fff;
+}
+
+.wrap h2 {
+	text-transform: uppercase;
+	letter-spacing: 2px;
+}
+
+.wrap p {
+	font-weight: 100;
+	letter-spacing: 1px;
+	color: #b9e9ff;
+}
+
+.wrap a {
+	text-transform: uppercase;
+	text-decoration: none;
+	color: #fff;
+	background-color: #58cd97;
+	color: #fff;
+	padding: 12px 30px;
+	margin-top: 12px;
+	display: inline-block;
+	border-radius: 2px;
+	letter-spacing: 1px;
+}
+
+
+@media screen and (max-width: 992px) {
+	.offer {
+		display: none;
+	}
+	.products {
+		text-align: center;
+	}
+
+	.testmonials {
+		display: block;
+	}
+	.testmonials .fifty{
+		display: block;
+		width: 100%;
+	}
+
+	.book-text p {
+		text-align: center;
+	}
+}
