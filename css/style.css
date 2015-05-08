@@ -493,6 +493,14 @@ form input[type*=submit] {
 	.products {
 		text-align: center;
 	}
+	.col-md-3 h4 {
+		padding-top: 10px;
+		font-size: 29px;
+	}
+	
+	.col-md-3 p {
+		font-size: 21px;
+	}
 
 	.testmonials {
 		display: block;
@@ -504,5 +512,6 @@ form input[type*=submit] {
 
 	.book-text p {
 		text-align: center;
+		font-size: 17px;
 	}
 }
