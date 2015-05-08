@@ -22,6 +22,7 @@ h1 {
 	font-size: 22px;
 	font-weight: 200;
 	letter-spacing: 7px;
+	font-family: "museo-slab",sans-serif;
 }
 
 h1:before {
@@ -268,6 +269,7 @@ h1 {float: left;}
 		width: 100%;
 		display: table;
 		padding-top: 75px;
+		font-family: "proxima-nova-light",sans-serif;
 	}
 }
 
@@ -275,13 +277,14 @@ h1 {float: left;}
 	width: 50%;
 	display: table-cell;
 	vertical-align: middle;
-	padding: 160px 171px;
+	padding: 158px 84px;
 }
 
 .testmonials .purple {
 	background-color: #7f59b4;
 	text-align: center;
 	color: #fff;
+	letter-spacing: 3px;
 }
 
 .purple h6 {
@@ -371,6 +374,7 @@ h1 {float: left;}
 	margin: 59px auto;
 	text-align: center;	
 	font-size: 17px;
+	font-family: "museo-slab",sans-serif;
 }
 
 .ebook .book-title {
@@ -383,6 +387,7 @@ h1 {float: left;}
 	letter-spacing: 1px;
   	font-weight: 300;
   	margin:0;
+  	font-family: "museo-slab",sans-serif;
 }
 
 .book-title p {
@@ -397,6 +402,7 @@ h1 {float: left;}
 .book-text p {
 	color: #92969a;
 	margin: 82px auto 0;
+	font-family: "proxima-nova",sans-serif;
 }
 
 .book-text label {
@@ -441,6 +447,7 @@ form input[type*=submit] {
 	max-width: 100%;
 	margin-top: 50px;
 	background-color: #199eda;
+	font-family: "proxima-nova",sans-serif;
 }
 
 .wrap {
