@@ -78,6 +78,7 @@ h1 {float: left;}
 	display: inline-block;
 	border-radius: 2px;
 	font-family: "proxima-nova",sans-serif;
+	text-transform: uppercase;
 }
 
 .laptop {
